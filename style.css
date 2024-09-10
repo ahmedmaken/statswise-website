@@ -26,7 +26,7 @@ body, html {
 /* Home Section */
 .home-section {
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRhdGF8ZW58MHx8fHwxNjYzNjg4NzU1&ixlib=rb-1.2.1&q=80&w=1080');
+    background-image: url('https://images.unsplash.com/photo-1655890954753-f9ec41ce58ae?q=80&w=3732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1080');
     background-size: cover;       /* Ensures the image covers the entire section */
     background-position: center;  /* Keeps the image centered */
     background-repeat: no-repeat; /* Prevents the image from repeating */
