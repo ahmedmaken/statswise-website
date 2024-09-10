@@ -11,8 +11,8 @@ body, html {
     background-color: rgba(19, 37, 77, 1); /* Official Color */
 }
 
-.navbar-brand {
-    color: white !important; /* Title in navigation bar */
+.navbar-brand, .nav-link {
+    color: white !important;
 }
 
 .navbar-nav .nav-link {
@@ -38,10 +38,10 @@ body, html {
     text-align: center;           /* Center text */
 }
 
-.home-section .home-title { /* Specific style for the title in home section */
+.home-section h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: white; /* Title in the home section */
+    color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
 }
 
