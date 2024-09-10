@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'League Spartan', sans-serif; /* Use League Spartan font */
 }
 
 /* Navigation Bar */
@@ -11,8 +11,9 @@ body, html {
     background-color: rgba(19, 37, 77, 1); /* Official Color */
 }
 
-.navbar-brand, .nav-link {
-    color: green !important;
+.navbar-brand {
+    color: white !important; /* Title in navigation bar */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .navbar-nav .nav-link {
@@ -38,11 +39,12 @@ body, html {
     text-align: center;           /* Center text */
 }
 
-.home-section h1 {
+.home-section .home-title { /* Specific style for the title in home section */
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: white; /* Changed to white */
+    color: white; /* Title in the home section */
     font-weight: bold; /* Bold Titles */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .home-section p {
@@ -58,6 +60,7 @@ a.btn {
     font-size: 1.25rem;
     border-radius: 5px;
     display: inline-block;
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 a.btn:hover {
@@ -75,11 +78,13 @@ a.btn:hover {
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .services-section h3 {
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .services-section p {
@@ -98,6 +103,7 @@ a.btn:hover {
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .about-section p {
@@ -117,6 +123,7 @@ a.btn:hover {
     margin-bottom: 20px;
     color: white;
     font-weight: bold; /* Bold Titles */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .contact-section form {
@@ -145,6 +152,7 @@ a.btn:hover {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold; /* Bold Button Text */
+    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .contact-section .btn-primary:hover {
