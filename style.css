@@ -8,7 +8,7 @@ body, html {
 
 /* Navigation Bar */
 .navbar {
-    background-color: rgba(19, 37, 77, 1); /* Official Color */
+    background-color: rgba(19, 37, 222, 1); /* Official Color */
 }
 
 .navbar-brand, .nav-link {
