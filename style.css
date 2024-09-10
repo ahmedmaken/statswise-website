@@ -78,14 +78,19 @@ a.btn:hover {
 }
 
 .services-section h3 {
-    font-size: 1.75rem;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
+}
+
+.services-section p {
+    color: #333;
 }
 
 /* About Section */
 .about-section {
     padding: 50px 0;
+    background-color: rgba(19, 37, 77, 0.1); /* Light version of official color */
+    color: rgba(19, 37, 77, 1); /* Official Color */
 }
 
 .about-section h2 {
@@ -95,38 +100,33 @@ a.btn:hover {
     font-weight: bold; /* Bold Titles */
 }
 
-/* Clients Section */
-.clients-section {
-    padding: 50px 0;
-    background-color: #f4f4f4;
-}
-
-.clients-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: rgba(19, 37, 77, 1); /* Official Color */
-    font-weight: bold; /* Bold Titles */
-}
-
-.clients-section img {
-    max-width: 150px;
-    margin: 0 auto;
-    display: block;
+.about-section p {
+    font-size: 1.25rem;
+    color: rgba(19, 37, 77, 0.8); /* Slightly lighter shade */
 }
 
 /* Contact Section */
 .contact-section {
     padding: 50px 0;
+    background-color: rgba(19, 37, 77, 1); /* Official Color */
+    color: white;
 }
 
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: rgba(19, 37, 77, 1); /* Official Color */
+    color: white;
     font-weight: bold; /* Bold Titles */
 }
 
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contact-section .form-control {
+    background-color: #fff; /* White background for form elements */
     border: 2px solid rgba(19, 37, 77, 1); /* Border in official color */
     color: rgba(19, 37, 77, 1); /* Text color matching the official color */
     font-size: 1rem;
