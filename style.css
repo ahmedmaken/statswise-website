@@ -1,53 +1,47 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
+/* Basic Styles */
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    height: 100%;
+    font-family: Arial, sans-serif;
 }
 
-.navbar {
-    background-color: white;
-    padding: 15px 0;
-}
-
+/* Home Section */
 .home-section {
     height: 100vh;
-    background-image: url('https://via.placeholder.com/1920x1080');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRhdGF8ZW58MHx8fHwxNjYzNjg4NzU1&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;       /* Ensures the image covers the entire section */
+    background-position: center;  /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Adds a parallax effect */
+    color: white;                 /* White text color to contrast with the image */
+    display: flex;                /* Flexbox to center content */
+    justify-content: center;      /* Center horizontally */
+    align-items: center;          /* Center vertically */
+    text-align: center;           /* Center text */
 }
 
-.services-section {
-    background-color: #f8f9fa;
+/* Home Section Text Styles */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 
-.about-section {
-    background-color: #f1f1f1;
+p {
+    font-size: 1.5rem;
 }
 
-.contact-section {
-    background-color: #e9ecef;
-}
-
-h1, h2, h3 {
-    font-weight: bold;
-}
-
-.btn-primary {
+/* Button Styling */
+a.btn {
     background-color: #007bff;
-    border: none;
+    color: white;
     padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    display: inline-block;
 }
 
-.btn-primary:hover {
+a.btn:hover {
     background-color: #0056b3;
-}
-
-/* Smooth Scroll Effect */
-html {
-    scroll-behavior: smooth;
 }
