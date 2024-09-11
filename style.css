@@ -15,6 +15,12 @@ body, html {
     font-weight: bold
 }
 
+.navbar-logo {
+    height: 40px; /* Adjust the height as needed */
+    width: auto; /* Keeps the aspect ratio of the logo */
+    display: inline-block; /* Ensures the logo is inline with other navbar items */
+}
+
 .navbar-brand, .nav-link {
     color: rgba(19, 37, 77, 1) !important;
 }
