@@ -81,14 +81,32 @@ a.btn:hover {
     font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
-.services-section h3 {
+.services-section .service-box {
+    background-color: white;
+    border: 1px solid #ddd; /* Light border for the boxes */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 20px 0; /* Space between boxes */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.services-section .service-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.services-section .service-box h3 {
+    font-size: 1.75rem;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
     font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
-.services-section p {
+.services-section .service-box p {
     color: #333;
+    font-size: 1rem;
+    line-height: 1.6; /* Better readability */
 }
 
 /* About Section */
