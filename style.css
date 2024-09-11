@@ -37,22 +37,22 @@ body, html {
 .home-section {
     height: 100vh;
     background-image: url('images/background.png');
-    background-size: cover;       /* Ensures the image covers the entire section */
-    background-position: center;  /* Keeps the image centered */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Adds a parallax effect */
-    color: white;                 /* White text color to contrast with the image */
-    display: flex;                /* Flexbox to center content */
-    justify-content: center;      /* Center horizontally */
-    align-items: center;          /* Center vertically */
-    text-align: center;           /* Center text */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .home-title {
-    color: white; /* Title color in the center */
+    color: white;
     font-size: 4rem;
     margin-bottom: 1rem;
-    font-weight: bold; /* Bold Titles */
+    font-weight: bold;
 }
 
 /* Button Styling */
@@ -80,74 +80,114 @@ a.btn:hover {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
-    font-weight: bold; /* Bold Titles */
+    font-weight: bold;
 }
 
 .service-box {
     background-color: white;
-    border: 1px solid #ddd; /* Light border for the boxes */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 20px 0; /* Space between boxes */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-box:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .service-box h3 {
     font-size: 1.75rem;
-    color: rgba(19, 37, 77, 1); /* Official Color */
-    font-weight: bold; /* Bold Titles */
+    color: rgba(19, 37, 77, 1);
+    font-weight: bold;
 }
 
 .service-box p {
     color: #333;
     font-size: 1rem;
-    line-height: 1.6; /* Better readability */
+    line-height: 1.6;
+}
+
+/* Industries Section */
+.industries-section {
+    padding: 50px 0;
+    background-color: #ffffff; /* White background */
+}
+
+.industries-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: rgba(19, 37, 77, 1); /* Official Color */
+    font-weight: bold;
+}
+
+.industry-box {
+    background-color: #f8f9fa; /* Light background for industry boxes */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.industry-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.industry-box h3 {
+    font-size: 1.75rem;
+    color: rgba(19, 37, 77, 1); /* Official Color */
+    font-weight: bold;
+}
+
+.industry-box p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* About Section */
 .about-section {
     padding: 50px 0;
-    background-color: rgba(19, 37, 77, 0.1); /* Light version of official color */
-    color: rgba(19, 37, 77, 1); /* Official Color */
+    background-color: rgba(19, 37, 77, 0.1);
+    color: rgba(19, 37, 77, 1);
 }
 
 .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: rgba(19, 37, 77, 1); /* Official Color */
-    font-weight: bold; /* Bold Titles */
-    opacity: 1 !important; /* Ensure visible immediately */
-    transition: none !important; /* Remove any unwanted transition */
+    color: rgba(19, 37, 77, 1);
+    font-weight: bold;
+    opacity: 1 !important;
+    transition: none !important;
 }
 
 .about-section p {
     font-size: 1.25rem;
-    color: rgba(19, 37, 77, 0.8); /* Slightly lighter shade */
+    color: rgba(19, 37, 77, 0.8);
 }
 
 /* Contact Section */
 .contact-section {
     padding: 50px 0;
-    background-color: rgba(19, 37, 77, 1); /* Blue background */
-    color: white; /* Default text color set to white */
+    background-color: rgba(19, 37, 77, 1);
+    color: white;
 }
 
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    font-weight: bold; /* Bold Titles */
-    color: white; /* Ensuring the heading is white */
-    opacity: 1 !important; /* Ensure visible immediately */
-    transition: none !important; /* Remove any unwanted transition */
+    font-weight: bold;
+    color: white;
+    opacity: 1 !important;
+    transition: none !important;
 }
 
 .contact-info {
-    color: white; /* White color for email and phone */
-    font-size: 1.25rem; /* Adjust size as needed */
+    color: white;
+    font-size: 1.25rem;
 }
