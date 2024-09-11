@@ -122,6 +122,8 @@ a.btn:hover {
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
+    opacity: 1 !important; /* Ensure visible immediately */
+    transition: none !important; /* Remove any unwanted transition */
 }
 
 .about-section p {
@@ -141,6 +143,8 @@ a.btn:hover {
     margin-bottom: 20px;
     font-weight: bold; /* Bold Titles */
     color: white; /* Ensuring the heading is white */
+    opacity: 1 !important; /* Ensure visible immediately */
+    transition: none !important; /* Remove any unwanted transition */
 }
 
 .contact-info {
