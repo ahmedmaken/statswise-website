@@ -1,9 +1,12 @@
+/* Importing League Spartan Font */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
 /* Basic Styles */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'League Spartan', sans-serif; /* Use League Spartan font */
+    font-family: 'League Spartan', sans-serif; /* Applying League Spartan Font */
 }
 
 /* Navigation Bar */
@@ -11,9 +14,8 @@ body, html {
     background-color: rgba(19, 37, 77, 1); /* Official Color */
 }
 
-.navbar-brand {
-    color: rgba(19, 37, 77, 1) !important; /* Title in navigation bar */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
+.navbar-brand, .nav-link {
+    color: rgba(19, 37, 77, 1) !important;
 }
 
 .navbar-nav .nav-link {
@@ -39,16 +41,11 @@ body, html {
     text-align: center;           /* Center text */
 }
 
-.home-section .home-title { /* Specific style for the title in home section */
+.home-title {
+    color: white; /* Title color in the center */
     font-size: 4rem;
     margin-bottom: 1rem;
-    color: white; /* Title in the home section */
     font-weight: bold; /* Bold Titles */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
-}
-
-.home-section p {
-    font-size: 1.5rem;
 }
 
 /* Button Styling */
@@ -60,7 +57,6 @@ a.btn {
     font-size: 1.25rem;
     border-radius: 5px;
     display: inline-block;
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 a.btn:hover {
@@ -78,10 +74,9 @@ a.btn:hover {
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
-.services-section .service-box {
+.service-box {
     background-color: white;
     border: 1px solid #ddd; /* Light border for the boxes */
     border-radius: 10px; /* Rounded corners */
@@ -91,19 +86,18 @@ a.btn:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
 }
 
-.services-section .service-box:hover {
+.service-box:hover {
     transform: translateY(-5px); /* Lift effect on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
-.services-section .service-box h3 {
+.service-box h3 {
     font-size: 1.75rem;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
-.services-section .service-box p {
+.service-box p {
     color: #333;
     font-size: 1rem;
     line-height: 1.6; /* Better readability */
@@ -121,7 +115,6 @@ a.btn:hover {
     margin-bottom: 20px;
     color: rgba(19, 37, 77, 1); /* Official Color */
     font-weight: bold; /* Bold Titles */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .about-section p {
@@ -141,7 +134,6 @@ a.btn:hover {
     margin-bottom: 20px;
     color: white;
     font-weight: bold; /* Bold Titles */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .contact-section form {
@@ -170,7 +162,6 @@ a.btn:hover {
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold; /* Bold Button Text */
-    font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
 .contact-section .btn-primary:hover {
