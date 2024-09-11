@@ -143,23 +143,6 @@ a.btn:hover {
     font-weight: bold; /* Bold Titles */
 }
 
-.contact-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-section .form-control {
-    background-color: #fff; /* White background for form elements */
-    border: 2px solid rgba(19, 37, 77, 1); /* Border in official color */
-    color: rgba(19, 37, 77, 1); /* Text color matching the official color */
-    font-size: 1rem;
-    margin-bottom: 1rem; /* Space between fields */
-}
-
-.contact-section .form-control::placeholder {
-    color: #aaa; /* Placeholder color */
-}
 
 .contact-section .btn-primary {
     background-color: white;
