@@ -12,7 +12,7 @@ body, html {
 }
 
 .navbar-brand {
-    color: white !important; /* Title in navigation bar */
+    color: rgba(19, 37, 77, 1) !important; /* Title in navigation bar */
     font-family: 'League Spartan', sans-serif; /* Ensure font is applied */
 }
 
