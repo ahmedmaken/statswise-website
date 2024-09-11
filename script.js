@@ -1,4 +1,4 @@
-// GSAP Scroll-trigger animations
+// Register GSAP ScrollTrigger Plugin
 gsap.registerPlugin(ScrollTrigger);
 
 // Animating Home Section Heading and Button
@@ -48,22 +48,31 @@ gsap.from(".services-section .col-md-4", {
 });
 
 // About and Contact Sections Animation
-gsap.from("#about h2", {
-    scrollTrigger: {
-        trigger: "#about",
-        start: "top center",
-    },
-    duration: 1,
-    y: 50,
-    opacity: 0,
-});
+if (window.innerWidth <= 768) { // Adjust based on your mobile breakpoint
+    // Ensure immediate visibility for mobile devices
+    gsap.from("#about h2, #contact h2", {
+        opacity: 1,
+        duration: 0,
+    });
+} else {
+    // About and Contact Sections Animation for larger screens
+    gsap.from("#about h2", {
+        scrollTrigger: {
+            trigger: "#about",
+            start: "top 80%", // Trigger earlier, when the top of the section is 80% down the viewport
+        },
+        duration: 1,
+        y: 50,
+        opacity: 0,
+    });
 
-gsap.from("#contact h2", {
-    scrollTrigger: {
-        trigger: "#contact",
-        start: "top center",
-    },
-    duration: 1,
-    y: 50,
-    opacity: 0,
-});
+    gsap.from("#contact h2", {
+        scrollTrigger: {
+            trigger: "#contact",
+            start: "top 80%", // Trigger earlier
+        },
+        duration: 1,
+        y: 50,
+        opacity: 0,
+    });
+}
