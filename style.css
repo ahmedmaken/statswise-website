@@ -143,18 +143,3 @@ a.btn:hover {
     font-weight: bold; /* Bold Titles */
 }
 
-
-.contact-section .btn-primary {
-    background-color: white;
-    color: rgba(19, 37, 77, 1); /* Official Color */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold; /* Bold Button Text */
-}
-
-.contact-section .btn-primary:hover {
-    background-color: rgba(240, 240, 240, 1); /* Light hover effect */
-    color: rgba(19, 37, 77, 1);
-}
