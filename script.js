@@ -47,6 +47,28 @@ gsap.from(".services-section .col-md-4", {
     ease: "power2.out",
 });
 
+// Animating Industries Section
+gsap.from("#industries h2", {
+    scrollTrigger: {
+        trigger: "#industries",
+        start: "top center",
+    },
+    duration: 1,
+    y: 50,
+    opacity: 0,
+});
+
+gsap.from(".industries-section .industry-box", {
+    scrollTrigger: {
+        trigger: ".industries-section",
+        start: "top 75%",
+    },
+    duration: 1.5,
+    opacity: 0,
+    stagger: 0.3,
+    ease: "power2.out",
+});
+
 // About and Contact Sections Animation
 if (window.innerWidth <= 768) { // Adjust based on your mobile breakpoint
     // Ensure immediate visibility for mobile devices
