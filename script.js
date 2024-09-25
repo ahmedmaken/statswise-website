@@ -110,11 +110,13 @@ if (window.innerWidth <= 768) { // Adjust based on your mobile breakpoint
     gsap.from("#contact h2", {
         scrollTrigger: {
             trigger: "#contact",
-            start: "top 80%", // Trigger earlier
+            start: "top 90%", // Trigger earlier
+            toggleActions: "play none none none" // Ensure it only plays once
         },
         duration: 1,
         y: 50,
         opacity: 0,
     });
-}
+    ScrollTrigger.refresh();
 
+}
