@@ -88,33 +88,21 @@ gsap.from(".industries-section .industry-box", {
     ease: "power2.out",
 });
 
-// About and Contact Sections Animation
-if (window.innerWidth <= 768) { // Adjust based on your mobile breakpoint
-    // Ensure immediate visibility for mobile devices
+// Contact Section Animation
+gsap.from("#contact h2", {
+    scrollTrigger: {
+        trigger: "#contact",
+        start: "top 80%",
+    },
+    duration: 1,
+    y: 50,
+    opacity: 0,
+});
+
+// Ensuring immediate visibility on mobile for larger sections
+if (window.innerWidth <= 768) {
     gsap.from("#about h2, #contact h2", {
         opacity: 1,
         duration: 0,
     });
-} else {
-    // About and Contact Sections Animation for larger screens
-    gsap.from("#about h2", {
-        scrollTrigger: {
-            trigger: "#about",
-            start: "top 80%", // Trigger earlier, when the top of the section is 80% down the viewport
-        },
-        duration: 1,
-        y: 50,
-        opacity: 0,
-    });
-
-    gsap.from("#contact h2", {
-        scrollTrigger: {
-            trigger: "#contact",
-            start: "top 80%", // Trigger earlier
-        },
-        duration: 1,
-        y: 50,
-        opacity: 0,
-    });
 }
-
